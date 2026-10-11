@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# SSH
+.ssh/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
